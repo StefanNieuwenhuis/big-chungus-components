@@ -4,7 +4,9 @@
   "description": "A 100% native web components library, built with lit-html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/StefanNieuwenhuis/big-chungus-components/issues"
   },
-  "homepage": "https://github.com/StefanNieuwenhuis/big-chungus-components#readme"
+  "homepage": "https://github.com/StefanNieuwenhuis/big-chungus-components#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/html": "^5.1.9",
+    "babel-loader": "^8.0.6"
+  }
 }
