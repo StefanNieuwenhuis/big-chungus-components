@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "storybook:build": "build-storybook -c .storybook -o docs"
+    "storybook:build": "build-storybook -c .storybook -o docs",
+    "storybook:deploy": "storybook-to-ghpages"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-knobs": "^5.1.9",
     "@storybook/html": "^5.1.9",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.6"
   }
 }
